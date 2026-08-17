@@ -1908,6 +1908,46 @@
       "order": [
         "0"
       ]
+    },
+    "layout_73": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_64",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_74": {
+      "type": "FIXED",
+      "content": {}
+    },
+    "layout_75": {
+      "type": "FIXED",
+      "content": {}
     }
   },
   "exbVersion": "1.21.0",
@@ -2294,6 +2334,7 @@
       "version": "1.21.0",
       "config": {
         "text": "<p style=\"text-align: center;\"><span style=\"color: var(--light);\">﻿Open Table</span></p>",
+        "placeholder": "<p style=\"text-align: center;\"><span style=\"color: var(--light);\">Double click to edit text</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": false
@@ -2306,6 +2347,7 @@
       "uri": "widgets/common/text/",
       "version": "1.21.0",
       "config": {
+        "placeholder": "<p><strong style=\"font-size: 20px; color: var(--light);\">Double click to edit text</strong></p>",
         "text": "<p><strong style=\"color: var(--light); font-size: 20px;\">﻿Property and Land Records</strong></p>",
         "style": {
           "color": "var(--light)",
@@ -2362,6 +2404,7 @@
       "version": "1.21.0",
       "config": {
         "text": "<p><strong style=\"color: var(--dark-800); font-size: 14px;\">﻿Town of Avon – Public Land Records Data Use Agreement</strong></p>",
+        "placeholder": "<p><strong style=\"font-size: 14px; color: var(--dark-800);\">Title</strong></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2375,6 +2418,7 @@
       "version": "1.21.0",
       "config": {
         "text": "<p><span style=\"color: var(--dark-800);\">The Town of Avon provides public access to GIS data for viewing, printing, and limited sharing. While efforts are made to ensure accuracy, data may contain errors or change over time. Users must not alter, misuse, or misrepresent the data. All data remains the property of the Town and may not be redistributed without proper attribution.</span></p><p><br></p><p><span style=\"color: var(--dark-800);\">The Town is not liable for any loss or damage resulting from use of this data. Continued use implies acceptance of these terms. For questions, contact the GIS Department at GIS@avon.org</span></p>",
+        "placeholder": "<p><span style=\"color: var(--dark-800);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -5999,6 +6043,7 @@
       "label": "Text 5",
       "config": {
         "text": "<p>﻿Property and Land Records</p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
         }
@@ -9212,6 +9257,23 @@
           "rootDataSourceId": "d30b52a48553489fa7fdb6dd15bbe9da"
         }
       ]
+    },
+    "widget_64": {
+      "uri": "widgets/avon-address-match/",
+      "version": "1.0.0",
+      "label": "Avon Address Match",
+      "config": {},
+      "id": "widget_64",
+      "useMapWidgetIds": [
+        "widget_7"
+      ],
+      "useDataSources": [
+        {
+          "dataSourceId": "d30b52a48553489fa7fdb6dd15bbe9da-194950b153a-layer-49-19494f50973-layer-3",
+          "mainDataSourceId": "d30b52a48553489fa7fdb6dd15bbe9da-194950b153a-layer-49-19494f50973-layer-3",
+          "rootDataSourceId": "d30b52a48553489fa7fdb6dd15bbe9da"
+        }
+      ]
     }
   },
   "widgetsManifest": {},
@@ -9394,6 +9456,29 @@
           "color": "var(--ref-palette-neutral-1100)"
         }
       }
+    },
+    "view_9": {
+      "id": "view_9",
+      "label": "Address Check",
+      "layout": {
+        "LARGE": "layout_73",
+        "MEDIUM": "layout_74",
+        "SMALL": "layout_75"
+      },
+      "icon": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M1.333 0h4c.737 0 1.334.597 1.334 1.333v1.334h8C15.403 2.667 16 3.264 16 4v10.667c0 .736-.597 1.333-1.333 1.333H1.333A1.333 1.333 0 0 1 0 14.667V1.333C0 .597.597 0 1.333 0m0 7.333v7.334h13.334V7.333zm0-1.333h13.334V4H5.334V1.335h-4z\" clip-rule=\"evenodd\"></path></svg>",
+        "properties": {
+          "filename": "Folder",
+          "originalName": "outlined/application/folder.svg",
+          "path": [
+            "generalAndArrows",
+            "folder"
+          ],
+          "inlineSvg": true,
+          "isUploaded": false,
+          "color": "var(--ref-palette-neutral-1100)"
+        }
+      }
     }
   },
   "sections": {
@@ -9401,6 +9486,7 @@
       "id": "section_1",
       "views": [
         "view_8",
+        "view_9",
         "view_1",
         "view_2",
         "view_3",
@@ -9608,16 +9694,9 @@
     }
   },
   "useAutoSortInFixedLayout": true,
-  "publishTimestamp": 1786983354752,
+  "publishTimestamp": 1731483829185,
   "attributes": {
-    "portalUrl": "https://AVON-COLORADO.maps.arcgis.com",
-    "isWebTier": false,
-    "clientId": "",
-    "express": false,
-    "title": "Property and Land Records",
-    "description": "",
-    "type": "Web Experience",
-    "thumbnail": null
+    "portalUrl": "https://AVON-COLORADO.maps.arcgis.com"
   },
   "sharedThemeVariables": {
     "header": {
@@ -9673,6 +9752,6 @@
       "orgSetting": {}
     }
   },
-  "timestamp": 1786983353992,
+  "timestamp": 1786988810538,
   "mainLocale": "en-us"
 }

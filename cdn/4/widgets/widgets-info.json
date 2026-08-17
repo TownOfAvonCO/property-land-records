@@ -12810,6 +12810,39 @@
     "group": 2
   },
   {
+    "name": "avon-address-match",
+    "manifest": {
+      "name": "avon-address-match",
+      "label": "Avon Address Match",
+      "type": "widget",
+      "version": "1.0.0",
+      "exbVersion": "1.21.0",
+      "dependency": [
+        "jimu-arcgis"
+      ],
+      "author": "Town of Avon",
+      "description": "Matching for Town of Avon addresses using flexible address matching.",
+      "copyright": "",
+      "license": "http://www.apache.org/licenses/LICENSE-2.0",
+      "properties": {
+        "hasSettingPage": true
+      },
+      "translatedLocales": [
+        "en"
+      ],
+      "defaultSize": {
+        "width": 400,
+        "height": 300
+      }
+    },
+    "i18nLabel": {},
+    "i18nDescription": {},
+    "uri": "widgets/avon-address-match/",
+    "icon": "widgets/avon-address-match/icon.svg",
+    "order": 700,
+    "group": 7
+  },
+  {
     "name": "avon-address-search",
     "manifest": {
       "name": "avon-address-search",
