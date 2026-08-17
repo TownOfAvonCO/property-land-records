@@ -1,0 +1,86 @@
+{
+  "1738261717458.png": {
+    "svg": "${appResourceUrl}/images/icon_picker_in_setting/1738261717458.png",
+    "properties": {
+      "filename": "1738261717458.png",
+      "originalName": "Picture1.png",
+      "path": "${appResourceUrl}/images/icon_picker_in_setting/1738261717458.png",
+      "isUploaded": true,
+      "inlineSvg": false
+    }
+  },
+  "1738261942830.png": {
+    "svg": "${appResourceUrl}/images/icon_picker_in_setting/1738261942830.png",
+    "properties": {
+      "filename": "1738261942830.png",
+      "originalName": "Picture2.png",
+      "path": "${appResourceUrl}/images/icon_picker_in_setting/1738261942830.png",
+      "isUploaded": true,
+      "inlineSvg": false
+    }
+  },
+  "1738261953955.png": {
+    "svg": "${appResourceUrl}/images/icon_picker_in_setting/1738261953955.png",
+    "properties": {
+      "filename": "1738261953955.png",
+      "originalName": "Picture3.png",
+      "path": "${appResourceUrl}/images/icon_picker_in_setting/1738261953955.png",
+      "isUploaded": true,
+      "inlineSvg": false
+    }
+  },
+  "1744232673873.png": {
+    "svg": "${appResourceUrl}/images/icon_picker_in_setting/1744232673873.png",
+    "properties": {
+      "filename": "1744232673873.png",
+      "originalName": "Picture1.png",
+      "path": "${appResourceUrl}/images/icon_picker_in_setting/1744232673873.png",
+      "color": "var(--ref-palette-neutral-1100)",
+      "size": 16,
+      "inlineSvg": false,
+      "isUploaded": true
+    }
+  },
+  "1744232715618.png": {
+    "svg": "${appResourceUrl}/images/icon_picker_in_setting/1744232715618.png",
+    "properties": {
+      "filename": "1744232715618.png",
+      "originalName": "Picture3.png",
+      "path": "${appResourceUrl}/images/icon_picker_in_setting/1744232715618.png",
+      "color": "var(--ref-palette-neutral-1100)",
+      "size": 16,
+      "inlineSvg": false,
+      "isUploaded": true
+    }
+  },
+  "1744232744266.png": {
+    "svg": "${appResourceUrl}/images/icon_picker_in_setting/1744232744266.png",
+    "properties": {
+      "filename": "1744232744266.png",
+      "originalName": "Picture4.png",
+      "path": "${appResourceUrl}/images/icon_picker_in_setting/1744232744266.png",
+      "isUploaded": true,
+      "inlineSvg": false
+    }
+  },
+  "1744232808734.png": {
+    "svg": "${appResourceUrl}/images/icon_picker_in_setting/1744232808734.png",
+    "properties": {
+      "filename": "1744232808734.png",
+      "originalName": "Picture5.png",
+      "path": "${appResourceUrl}/images/icon_picker_in_setting/1744232808734.png",
+      "isUploaded": true,
+      "inlineSvg": false
+    }
+  },
+  "1779399634050.png": {
+    "svg": "${appResourceUrl}/images/icon_picker_in_setting/1779399634050.png",
+    "properties": {
+      "filename": "1779399634050.png",
+      "originalName": "select.png",
+      "path": "${appResourceUrl}/images/icon_picker_in_setting/1779399634050.png",
+      "isUploaded": true,
+      "inlineSvg": false
+    }
+  }
+}

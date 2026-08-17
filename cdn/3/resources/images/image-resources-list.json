@@ -1,0 +1,44 @@
+{
+  "1738260582764": {
+    "originalName": "1724697556144_theme_logo.png",
+    "fileName": "1738260582764.png",
+    "size": 139946,
+    "url": "${appResourceUrl}/images/widget_8/1738260582764.png",
+    "created": 1738260582764,
+    "resourcesPrefix": "images/widget_8",
+    "referredIds": [],
+    "originId": "1738260582764",
+    "fileFormat": "image/png",
+    "isUseCompress": false,
+    "originalWidth": 855,
+    "originalHeight": 855
+  },
+  "1750693730752": {
+    "originalName": "AvonHeader_SubTheme.jpg",
+    "fileName": "1750693730752.jpg",
+    "size": 182048,
+    "url": "${appResourceUrl}/images/background_setting/1750693730752.jpg",
+    "created": 1750693730752,
+    "resourcesPrefix": "images/background_setting",
+    "referredIds": [],
+    "originId": "1750693730752",
+    "fileFormat": "image/jpeg",
+    "isUseCompress": false,
+    "originalWidth": 1478,
+    "originalHeight": 509
+  },
+  "1750693905226": {
+    "originalName": "AvonHeader_SubTheme_Lighter.jpg",
+    "fileName": "1750693905226.jpg",
+    "size": 172071,
+    "url": "${appResourceUrl}/images/background_setting/1750693905226.jpg",
+    "created": 1750693905226,
+    "resourcesPrefix": "images/background_setting",
+    "referredIds": [],
+    "originId": "1750693905226",
+    "fileFormat": "image/jpeg",
+    "isUseCompress": false,
+    "originalWidth": 1478,
+    "originalHeight": 509
+  }
+}
