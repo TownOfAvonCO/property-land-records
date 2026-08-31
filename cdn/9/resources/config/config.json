@@ -2152,26 +2152,9 @@
         "useTickBoxes": true,
         "customizeLayerOptions": {
           "widget_7-d30b52a48553489fa7fdb6dd15bbe9da": {
-            "isEnabled": true,
+            "isEnabled": false,
             "hiddenJimuLayerViewIds": [],
-            "showJimuLayerViewIds": [
-              "widget_7-d30b52a48553489fa7fdb6dd15bbe9da-194950b153a-layer-49",
-              "widget_7-d30b52a48553489fa7fdb6dd15bbe9da-194b2bfed63-layer-13",
-              "widget_7-d30b52a48553489fa7fdb6dd15bbe9da-19494f5bac9-layer-8",
-              "widget_7-d30b52a48553489fa7fdb6dd15bbe9da-1949577979d-layer-52",
-              "widget_7-d30b52a48553489fa7fdb6dd15bbe9da-19494f53397-layer-4",
-              "widget_7-d30b52a48553489fa7fdb6dd15bbe9da-19494f592c1-layer-6",
-              "widget_7-d30b52a48553489fa7fdb6dd15bbe9da-194b2d707bf-layer-14",
-              "widget_7-d30b52a48553489fa7fdb6dd15bbe9da-19494f59eec-layer-7",
-              "widget_7-d30b52a48553489fa7fdb6dd15bbe9da-194950b153a-layer-49-194950a6b6f-layer-48",
-              "widget_7-d30b52a48553489fa7fdb6dd15bbe9da-194b2bfed63-layer-13-194b2a5b3ad-layer-12",
-              "widget_7-d30b52a48553489fa7fdb6dd15bbe9da-194950b153a-layer-49-19494f50973-layer-3",
-              "widget_7-d30b52a48553489fa7fdb6dd15bbe9da-194b2bfed63-layer-13-194b2a59a98-layer-11",
-              "widget_7-d30b52a48553489fa7fdb6dd15bbe9da-1979da8dc96-layer-258",
-              "widget_7-d30b52a48553489fa7fdb6dd15bbe9da-1979da8e4dc-layer-259",
-              "widget_7-d30b52a48553489fa7fdb6dd15bbe9da-1979da8ba49-layer-257",
-              "widget_7-d30b52a48553489fa7fdb6dd15bbe9da-19c0bf4e001-layer-18"
-            ]
+            "showJimuLayerViewIds": []
           }
         },
         "visibilityRange": true,
@@ -9761,6 +9744,6 @@
       "orgSetting": {}
     }
   },
-  "timestamp": 1788184348669,
+  "timestamp": 1788186083487,
   "mainLocale": "en-us"
 }
