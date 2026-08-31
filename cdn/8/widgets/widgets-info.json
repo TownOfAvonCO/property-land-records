@@ -12810,6 +12810,39 @@
     "group": 2
   },
   {
+    "name": "ae-map-labels-search",
+    "manifest": {
+      "name": "ae-map-labels-search",
+      "label": "AE Map Labels Search",
+      "type": "widget",
+      "version": "1.0.0",
+      "exbVersion": "1.21.0",
+      "dependency": [
+        "jimu-arcgis"
+      ],
+      "author": "Town of Avon",
+      "description": "Search Town of Avon addresses using flexible address matching.",
+      "copyright": "",
+      "license": "http://www.apache.org/licenses/LICENSE-2.0",
+      "properties": {
+        "hasSettingPage": true
+      },
+      "translatedLocales": [
+        "en"
+      ],
+      "defaultSize": {
+        "width": 400,
+        "height": 300
+      }
+    },
+    "i18nLabel": {},
+    "i18nDescription": {},
+    "uri": "widgets/ae-map-labels-search/",
+    "icon": "widgets/ae-map-labels-search/icon.svg",
+    "order": 700,
+    "group": 7
+  },
+  {
     "name": "avon-address-match",
     "manifest": {
       "name": "avon-address-match",
