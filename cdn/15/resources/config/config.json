@@ -857,12 +857,12 @@
           "type": "WIDGET",
           "widgetId": "widget_28",
           "bbox": {
-            "left": "0%",
-            "right": "0%",
-            "top": "0%",
-            "bottom": "50.00px",
-            "width": "100%",
-            "height": "100%"
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0px",
+            "width": "100.0%",
+            "height": "100.0%"
           },
           "setting": {
             "autoProps": {
@@ -902,35 +902,11 @@
             "hCenter": false
           },
           "isPending": true
-        },
-        "2": {
-          "type": "WIDGET",
-          "widgetId": "widget_30",
-          "bbox": {
-            "left": "0%",
-            "right": "0%",
-            "top": "91.0%",
-            "bottom": "0.0%",
-            "width": "100%",
-            "height": "50.00px"
-          },
-          "setting": {
-            "autoProps": {
-              "width": "STRETCH",
-              "height": "CUSTOM",
-              "right": false,
-              "left": false,
-              "top": true,
-              "bottom": false
-            },
-            "hCenter": false
-          }
         }
       },
       "order": [
         "0",
-        "1",
-        "2"
+        "1"
       ]
     },
     "layout_43": {
@@ -939,12 +915,12 @@
           "type": "WIDGET",
           "widgetId": "widget_29",
           "bbox": {
-            "left": "0%",
-            "right": "0%",
-            "top": "0%",
-            "bottom": "0%",
-            "width": "100%",
-            "height": "100%"
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "100.0%"
           },
           "setting": {
             "autoProps": {
@@ -1086,11 +1062,37 @@
             },
             "vCenter": false,
             "hCenter": false
+          },
+          "isPending": true
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_94",
+          "bbox": {
+            "left": "8.1%",
+            "right": "6.8%",
+            "top": "19.6%",
+            "bottom": "19.3%",
+            "width": "85.1%",
+            "height": "61.1%"
+          },
+          "setting": {
+            "autoProps": {
+              "width": "AUTO",
+              "height": "AUTO",
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
           }
         }
       },
       "type": "FIXED",
       "order": [
+        "1",
         "0"
       ],
       "label": "Second"
@@ -1154,11 +1156,33 @@
             },
             "vCenter": false,
             "hCenter": false
+          },
+          "isPending": true
+        },
+        "2": {
+          "type": "SECTION",
+          "sectionId": "section_4",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "100.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            }
           }
         }
       },
       "type": "FIXED",
       "order": [
+        "2",
         "0"
       ],
       "label": "Second"
@@ -1839,31 +1863,8 @@
     },
     "layout_72": {
       "type": "FIXED",
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_62",
-          "bbox": {
-            "left": "0.0%",
-            "right": "0.0%",
-            "top": "0.1%",
-            "bottom": "0.0%",
-            "width": "100.0%",
-            "height": "99.9%"
-          },
-          "setting": {
-            "autoProps": {
-              "right": false,
-              "left": true,
-              "top": true,
-              "bottom": false
-            }
-          }
-        }
-      },
-      "order": [
-        "0"
-      ]
+      "content": {},
+      "order": []
     },
     "layout_83": {
       "type": "FIXED",
@@ -2119,6 +2120,188 @@
         "0",
         "1"
       ]
+    },
+    "layout_114": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_62",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "100.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            }
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_115": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_95",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "100.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            }
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_116": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_96",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_117": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_10",
+          "bbox": {
+            "left": "50%",
+            "right": "34.1%",
+            "top": "50%",
+            "bottom": "32.5%",
+            "width": "98.00%",
+            "height": "28.00px"
+          },
+          "setting": {
+            "autoProps": {
+              "right": true,
+              "left": false,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": true,
+            "hCenter": true
+          },
+          "isPending": true
+        }
+      },
+      "type": "FIXED",
+      "setting": {
+        "lockDescendants": true
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_118": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_97",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "100.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            }
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_119": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_98",
+          "bbox": {
+            "left": "30.2%",
+            "right": "32.5%",
+            "top": "42.5%",
+            "bottom": "36.0%",
+            "width": "37.2%",
+            "height": "21.5%"
+          },
+          "setting": {
+            "autoProps": {
+              "width": "AUTO",
+              "height": "AUTO",
+              "right": true,
+              "left": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
     }
   },
   "exbVersion": "1.21.0",
@@ -2130,6 +2313,10 @@
       "MEDIUM": {
         "width": 834,
         "height": 1112
+      },
+      "SMALL": {
+        "width": 360,
+        "height": 720
       }
     }
   },
@@ -2488,6 +2675,7 @@
       "version": "1.21.0",
       "config": {
         "text": "<p style=\"text-align: center;\"><span style=\"color: var(--light);\">﻿Open Table</span></p>",
+        "placeholder": "<p style=\"text-align: center;\"><span style=\"color: var(--light);\">Double click to edit text</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": false
@@ -2500,6 +2688,7 @@
       "uri": "widgets/common/text/",
       "version": "1.21.0",
       "config": {
+        "placeholder": "<p><strong style=\"font-size: 20px; color: var(--light);\">Double click to edit text</strong></p>",
         "text": "<p><strong style=\"color: var(--light); font-size: 20px;\">﻿Property and Land Records</strong></p>",
         "style": {
           "color": "var(--light)",
@@ -2556,6 +2745,7 @@
       "version": "1.21.0",
       "config": {
         "text": "<p><strong style=\"color: var(--dark-800); font-size: 14px;\">﻿Town of Avon – Public Land Records Data Use Agreement</strong></p>",
+        "placeholder": "<p><strong style=\"font-size: 14px; color: var(--dark-800);\">Title</strong></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2569,6 +2759,7 @@
       "version": "1.21.0",
       "config": {
         "text": "<p><span style=\"color: var(--dark-800);\">The Town of Avon provides public access to GIS data for viewing, printing, and limited sharing. While efforts are made to ensure accuracy, data may contain errors or change over time. Users must not alter, misuse, or misrepresent the data. All data remains the property of the Town and may not be redistributed without proper attribution.</span></p><p><br></p><p><span style=\"color: var(--dark-800);\">The Town is not liable for any loss or damage resulting from use of this data. Continued use implies acceptance of these terms. For questions, contact the GIS Department at GIS@avon.org</span></p>",
+        "placeholder": "<p><span style=\"color: var(--dark-800);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -4579,7 +4770,7 @@
         "direction": "VERTICAL",
         "collapseSide": "SECOND",
         "overlay": false,
-        "size": "254px",
+        "size": "54px",
         "divider": {
           "visible": true,
           "lineStyle": {
@@ -4653,7 +4844,7 @@
         "direction": "VERTICAL",
         "collapseSide": "SECOND",
         "overlay": false,
-        "size": "150px",
+        "size": "312px",
         "divider": {
           "visible": true,
           "lineStyle": {
@@ -4707,7 +4898,7 @@
             }
           }
         },
-        "defaultState": 0
+        "defaultState": 1
       },
       "id": "widget_29",
       "layouts": {
@@ -4719,59 +4910,6 @@
         }
       },
       "label": "Sidebar 6"
-    },
-    "widget_30": {
-      "uri": "widgets/common/navigator/",
-      "version": "1.21.0",
-      "config": {
-        "data": {
-          "type": "AUTO",
-          "section": "section_1",
-          "views": []
-        },
-        "display": {
-          "advanced": true,
-          "vertical": false,
-          "type": "nav",
-          "navStyle": "default",
-          "standard": {
-            "scrollable": true,
-            "textAlign": "center",
-            "gap": "0px",
-            "showText": false,
-            "showIcon": true,
-            "iconPosition": "start"
-          },
-          "variant": {
-            "root": {
-              "bg": "var(--primary-600)"
-            },
-            "item": {
-              "default": {
-                "icon": {
-                  "color": "var(--light)",
-                  "size": "16px"
-                }
-              },
-              "active": {
-                "icon": {
-                  "size": "16px",
-                  "color": "var(--light)"
-                },
-                "bg": "var(--primary-500)"
-              },
-              "hover": {
-                "icon": {
-                  "size": "16px",
-                  "color": "var(--primary-200)"
-                }
-              }
-            }
-          }
-        }
-      },
-      "id": "widget_30",
-      "label": "Views Navigation 3"
     },
     "widget_42": {
       "uri": "widgets/common/button/",
@@ -5103,6 +5241,7 @@
       "label": "Text 5",
       "config": {
         "text": "<p>﻿Property and Land Records</p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
         }
@@ -5993,6 +6132,7 @@
       "label": "Address Search Help",
       "config": {
         "text": "<p>Search for a property by entering an <strong>address</strong> or<strong> parcel number,</strong> or by clicking a point on the map, to learn more about the location and its surrounding area. The search will suggest results as you type.</p><p><br></p><p><br></p><p>Results will include information about features of interest.</p><p><br></p><p><em style=\"color: var(--dark-500);\">Information is provided as a public service for your convenience. Every effort has been made to achieve accuracy, but the Planning Division should be contacted at 970-748-4023 to verify General Plan and Zoning information. The Town of Avon shall not incur any liability for errors or omissions with respect to the information provided in this service. Note that these maps are not the basis of developing municipal code, managing parcel ownership nor code compliance administration. They simply provide an indication of the location of boundaries and assets, and any misalignment of boundaries with actual landmarks does not impact ownership nor code applicable.</em></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
         }
@@ -6237,6 +6377,167 @@
         }
       },
       "id": "widget_88"
+    },
+    "widget_94": {
+      "uri": "widgets/common/navigator/",
+      "version": "1.21.0",
+      "label": "Views Navigation 5",
+      "config": {
+        "data": {
+          "type": "AUTO",
+          "section": "section_4",
+          "views": []
+        },
+        "display": {
+          "advanced": true,
+          "vertical": false,
+          "type": "nav",
+          "navStyle": "default",
+          "standard": {
+            "scrollable": true,
+            "textAlign": "center",
+            "gap": "5px",
+            "showText": false,
+            "showIcon": true,
+            "iconPosition": "start"
+          },
+          "variant": {
+            "item": {
+              "default": {
+                "icon": {
+                  "color": "var(--org-header-bg)",
+                  "size": "25px"
+                }
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_94"
+    },
+    "widget_95": {
+      "uri": "widgets/arcgis/map-layers/",
+      "version": "1.21.0",
+      "label": "Map Layers 2",
+      "config": {
+        "useMapWidget": true,
+        "useTickBoxes": true,
+        "enableLegend": true,
+        "searchLayers": true
+      },
+      "id": "widget_95",
+      "useMapWidgetIds": [
+        "widget_7"
+      ]
+    },
+    "widget_96": {
+      "uri": "widgets/arcgis/basemap-gallery/",
+      "version": "1.21.0",
+      "label": "Basemap Gallery 2",
+      "config": {},
+      "id": "widget_96",
+      "useMapWidgetIds": [
+        "widget_7"
+      ]
+    },
+    "widget_97": {
+      "uri": "widgets/arcgis/legend/",
+      "version": "1.21.0",
+      "label": "Legend 2",
+      "config": {},
+      "id": "widget_97",
+      "useMapWidgetIds": [
+        "widget_7"
+      ]
+    },
+    "widget_98": {
+      "uri": "widgets/common/share/",
+      "version": "1.21.0",
+      "inControllerUx": "offPanel",
+      "label": "Share",
+      "config": {
+        "uiMode": "INLINE",
+        "popup": {
+          "icon": "",
+          "items": [
+            {
+              "id": "embed",
+              "enable": true
+            },
+            {
+              "id": "qrcode",
+              "enable": true
+            },
+            {
+              "id": "email",
+              "enable": true
+            },
+            {
+              "id": "facebook",
+              "enable": true
+            },
+            {
+              "id": "twitter",
+              "enable": true
+            },
+            {
+              "id": "pinterest",
+              "enable": true
+            },
+            {
+              "id": "linkedin",
+              "enable": true
+            }
+          ],
+          "tooltip": ""
+        },
+        "inline": {
+          "items": [
+            {
+              "id": "facebook",
+              "enable": false
+            },
+            {
+              "id": "twitter",
+              "enable": false
+            },
+            {
+              "id": "pinterest",
+              "enable": false
+            },
+            {
+              "id": "linkedin",
+              "enable": false
+            },
+            {
+              "id": "embed",
+              "enable": false
+            },
+            {
+              "id": "qrcode",
+              "enable": false
+            },
+            {
+              "id": "email",
+              "enable": true
+            },
+            {
+              "id": "sharelink",
+              "enable": true
+            }
+          ],
+          "design": {
+            "direction": "HORIZONTAL",
+            "hideLabel": false,
+            "btnRad": 0,
+            "btnColor": "",
+            "iconColor": "",
+            "size": "default",
+            "labelColor": "var(--sys-color-surface-paper-text)"
+          }
+        }
+      },
+      "id": "widget_98"
     }
   },
   "widgetsManifest": {},
@@ -6438,6 +6739,111 @@
       },
       "textColor": "var(--sys-color-surface-overlay-text)",
       "label": "View 3"
+    },
+    "view_16": {
+      "id": "view_16",
+      "label": "Search_",
+      "layout": {
+        "SMALL": "layout_114"
+      },
+      "icon": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0m-1.27 4.936a6.5 6.5 0 1 1 .707-.707l4.136 4.137a.5.5 0 1 1-.707.707z\" clip-rule=\"evenodd\"></path></svg>",
+        "properties": {
+          "filename": "Search",
+          "originalName": "outlined/editor/search.svg",
+          "path": [
+            "generalAndArrows",
+            "search"
+          ],
+          "inlineSvg": true,
+          "isUploaded": false,
+          "color": "var(--ref-palette-neutral-1100)"
+        }
+      }
+    },
+    "view_17": {
+      "id": "view_17",
+      "label": "Layers",
+      "layout": {
+        "SMALL": "layout_115"
+      },
+      "icon": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 20 20\"><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M10.226.054a.5.5 0 0 0-.451 0L.25 4.942a.446.446 0 0 0 .025.813L9.8 9.958a.5.5 0 0 0 .4 0l9.524-4.203a.446.446 0 0 0 .025-.813zM10 9.044 1.542 5.313 10 .97l8.458 4.34z\" clip-rule=\"evenodd\"></path><path fill=\"#000\" d=\"M.676 10.04a.493.493 0 0 0-.632.216c-.11.22-.006.482.232.585L10 15l9.724-4.16c.238-.102.342-.363.232-.584a.493.493 0 0 0-.632-.215L10 14.029z\"></path><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M.676 15.04a.493.493 0 0 0-.632.216c-.11.22-.006.482.232.585L10 20l9.724-4.16c.238-.102.342-.363.232-.584a.493.493 0 0 0-.632-.215L10 19.029zM10 19.03l.2.085h-.4z\" clip-rule=\"evenodd\"></path></svg>",
+        "properties": {
+          "filename": "WidgetLayerlistOutlined",
+          "originalName": "outlined/brand/widget-layerlist.svg",
+          "path": [
+            "brand",
+            "WidgetLayerlistOutlined"
+          ],
+          "inlineSvg": true,
+          "isUploaded": false,
+          "color": "var(--ref-palette-neutral-1100)"
+        }
+      }
+    },
+    "view_18": {
+      "id": "view_18",
+      "label": "Basemap Selection",
+      "layout": {
+        "SMALL": "layout_116"
+      },
+      "icon": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M6.886 6.886H0V0h6.886zm-2.952-.81h2.142v-.3a4.6 4.6 0 0 1-1.63-.816 2.6 2.6 0 0 0-.512 1.116m2.142-1.142a3.8 3.8 0 0 1-1.019-.53 3.7 3.7 0 0 1 1.019-.465zm0-1.83V.81h-3.15q.152.636.4 1.24h.005l-.002.005a6.1 6.1 0 0 0 1.114 1.79 4.3 4.3 0 0 1 1.633-.74M.81.81h1.282q.135.646.364 1.265A1.95 1.95 0 0 1 .81 3.127zm2.032 2.151A2.86 2.86 0 0 1 .81 3.94v2.137H3.11a3.4 3.4 0 0 1 .732-1.669 6.4 6.4 0 0 1-1-1.446M9.114 0v6.886H16V0zm4.925.81H9.924v3.342h.86a.84.84 0 0 1 .027-.608.75.75 0 0 1 .728-.389c.5-.006.614-.744.615-.75a.92.92 0 0 1 .206-.718c.313-.319.742-.498 1.19-.496a.6.6 0 0 0 .443-.178.4.4 0 0 0 .046-.203m1.15 5.266H9.925V4.962h2.325l-.48-.647a1.6 1.6 0 0 1-.194-.35c1.054-.03 1.387-1.203 1.382-1.607a.2.2 0 0 1 .028-.156c.032-.038.168-.164.632-.203.424 0 .821-.208 1.063-.556.114-.19.17-.41.162-.633h.348zM6.887 16H0V9.114h6.886zM.81 9.924h5.266v.466l-2.025 1.998v.878l-3.24-.09zm4.05 4.174-4.05-.113v1.205h5.266v-3.66l-1.215 1.196zM9.115 16H16V9.114H9.114zm4.261-.81h1.815v-1.453l-1.614-1.626-1.487 1.487zm1.815-5.266v2.661l-2.643-2.66zm-3.787 0H9.924v5.266h2.41L11 13.54l2.003-2.005z\" clip-rule=\"evenodd\"></path></svg>",
+        "properties": {
+          "filename": "BasemapOutlined",
+          "originalName": "outlined/gis/basemap.svg",
+          "path": [
+            "gis",
+            "BasemapOutlined"
+          ],
+          "inlineSvg": true,
+          "isUploaded": false,
+          "color": "var(--ref-palette-neutral-1100)"
+        }
+      }
+    },
+    "view_19": {
+      "id": "view_19",
+      "label": "Legend2",
+      "layout": {
+        "SMALL": "layout_118"
+      },
+      "icon": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" data-auto-flip=\"true\" viewBox=\"0 0 20 20\"><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M3 5 1.5 2 0 5zm16.318-2c.377 0 .682.224.682.5s-.305.5-.682.5H5.682C5.305 4 5 3.776 5 3.5s.305-.5.682-.5zM20 9.5c0-.276-.305-.5-.682-.5H5.682C5.305 9 5 9.224 5 9.5s.305.5.682.5h13.636c.377 0 .682-.224.682-.5m0 6c0-.276-.305-.5-.682-.5H5.682c-.377 0-.682.224-.682.5s.305.5.682.5h13.636c.377 0 .682-.224.682-.5m-17 0a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0M3 8v3H0V8z\" clip-rule=\"evenodd\"></path></svg>",
+        "properties": {
+          "filename": "WidgetLegendOutlined",
+          "originalName": "outlined/brand/widget-legend.svg",
+          "path": [
+            "brand",
+            "WidgetLegendOutlined"
+          ],
+          "inlineSvg": true,
+          "isUploaded": false,
+          "color": "var(--ref-palette-neutral-1100)"
+        }
+      }
+    },
+    "view_20": {
+      "id": "view_20",
+      "label": "Share",
+      "layout": {
+        "SMALL": "layout_119"
+      },
+      "icon": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M15 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m1 0a2.5 2.5 0 0 1-4.467 1.543L5.915 7.85a2.5 2.5 0 0 1 0 1.297l5.618 2.81a2.5 2.5 0 1 1-.448.894l-5.618-2.81a2.5 2.5 0 1 1 0-3.085l5.618-2.809A2.503 2.503 0 0 1 13.5 1 2.5 2.5 0 0 1 16 3.5M3.5 10a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3m10 5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3\" clip-rule=\"evenodd\"></path></svg>",
+        "properties": {
+          "filename": "Share 4",
+          "originalName": "outlined/application/share.svg",
+          "path": [
+            "generalAndArrows",
+            "share4"
+          ],
+          "inlineSvg": true,
+          "isUploaded": false,
+          "color": "var(--ref-palette-neutral-1100)"
+        }
+      }
     }
   },
   "sections": {
@@ -6468,6 +6874,22 @@
         "view_15"
       ],
       "label": "Section 2"
+    },
+    "section_4": {
+      "id": "section_4",
+      "label": "Section 3",
+      "views": [
+        "view_16",
+        "view_17",
+        "view_18",
+        "view_19",
+        "view_20"
+      ],
+      "defaultView": "view_16",
+      "arrowsNav": {
+        "visible": true,
+        "size": "15"
+      }
     }
   },
   "dialogs": {
@@ -6627,35 +7049,34 @@
         }
       ]
     },
-    "messageConfig_9": {
-      "id": "messageConfig_9",
-      "widgetId": "widget_30",
+    "messageConfig_11": {
+      "id": "messageConfig_11",
       "messageType": "VIEW_CHANGE",
       "actions": [
         {
-          "actionId": "widget_28-openSidebar-1727251117144",
-          "widgetId": "widget_28",
-          "messageWidgetId": "widget_30",
+          "actionId": "widget_29-openSidebar-1789076009189",
+          "widgetId": "widget_29",
+          "dataSourceId": null,
+          "sectionId": null,
+          "messageWidgetId": "widget_94",
           "actionName": "openSidebar",
           "description": null,
-          "version": "1.16.0"
-        }
-      ]
-    },
-    "messageConfig_10": {
-      "id": "messageConfig_10",
-      "widgetId": "widget_30",
-      "messageType": "BUTTON_CLICK",
-      "actions": [
+          "config": {},
+          "version": "1.21.0"
+        },
         {
-          "actionId": "widget_28-toggleSidebar-1727251121594",
+          "actionId": "widget_28-openSidebar-1789076029262",
           "widgetId": "widget_28",
-          "messageWidgetId": "widget_30",
-          "actionName": "toggleSidebar",
+          "dataSourceId": null,
+          "sectionId": null,
+          "messageWidgetId": "widget_94",
+          "actionName": "openSidebar",
           "description": null,
-          "version": "1.16.0"
+          "config": {},
+          "version": "1.21.0"
         }
-      ]
+      ],
+      "widgetId": "widget_94"
     }
   },
   "pageStructure": [
@@ -6676,10 +7097,12 @@
   },
   "footer": {
     "layout": {
-      "LARGE": "layout_9"
+      "LARGE": "layout_9",
+      "SMALL": "layout_117"
     },
     "height": {
-      "LARGE": "30px"
+      "LARGE": "30px",
+      "SMALL": 3
     },
     "backgroundColor": "var(--primary-600)"
   },
@@ -6694,16 +7117,9 @@
     }
   },
   "useAutoSortInFixedLayout": true,
-  "publishTimestamp": 1789074362660,
+  "publishTimestamp": 1731483829185,
   "attributes": {
-    "portalUrl": "https://AVON-COLORADO.maps.arcgis.com",
-    "isWebTier": false,
-    "clientId": "",
-    "express": false,
-    "title": "Property and Land Records",
-    "description": "",
-    "type": "Web Experience",
-    "thumbnail": null
+    "portalUrl": "https://AVON-COLORADO.maps.arcgis.com"
   },
   "sharedThemeVariables": {
     "header": {
@@ -6759,6 +7175,6 @@
       "orgSetting": {}
     }
   },
-  "timestamp": 1789074349027,
+  "timestamp": 1789076057966,
   "mainLocale": "en-us"
 }
