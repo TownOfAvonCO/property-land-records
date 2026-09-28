@@ -232,7 +232,8 @@
             },
             "vCenter": false,
             "hCenter": false
-          }
+          },
+          "isPending": true
         }
       },
       "type": "FIXED",
@@ -1812,30 +1813,6 @@
     "layout_70": {
       "type": "FIXED",
       "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_65",
-          "bbox": {
-            "left": "0.0%",
-            "right": "0.0%",
-            "top": "-0.0%",
-            "bottom": "24.5%",
-            "width": "100.0%",
-            "height": "75.5%"
-          },
-          "setting": {
-            "autoProps": {
-              "right": false,
-              "left": false,
-              "top": false,
-              "bottom": false,
-              "height": "STRETCH",
-              "width": "STRETCH"
-            },
-            "vCenter": false,
-            "hCenter": false
-          }
-        },
         "1": {
           "type": "WIDGET",
           "widgetId": "widget_69",
@@ -1857,11 +1834,31 @@
             "vCenter": false,
             "hCenter": false
           }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_105",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "26.7%",
+            "width": "100.0%",
+            "height": "73.3%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            }
+          }
         }
       },
       "order": [
         "1",
-        "0"
+        "2"
       ]
     },
     "layout_71": {
@@ -2484,10 +2481,6 @@
       "SMALL": {
         "width": 360,
         "height": 720
-      },
-      "LARGE": {
-        "width": 1920,
-        "height": 1080
       }
     }
   },
@@ -2511,7 +2504,7 @@
         },
         "resizable": true,
         "toggleBtn": {
-          "visible": false,
+          "visible": true,
           "iconSource": 0,
           "icon": "LEFT",
           "offsetX": 15,
@@ -2554,7 +2547,8 @@
             }
           }
         },
-        "defaultState": 1
+        "defaultState": 1,
+        "expandTooltip": "Expand"
       },
       "id": "widget_1",
       "layouts": {
@@ -2846,6 +2840,7 @@
       "version": "1.21.0",
       "config": {
         "text": "<p style=\"text-align: center;\"><span style=\"color: var(--light);\">﻿Open Table</span></p>",
+        "placeholder": "<p style=\"text-align: center;\"><span style=\"color: var(--light);\">Double click to edit text</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": false
@@ -2858,6 +2853,7 @@
       "uri": "widgets/common/text/",
       "version": "1.21.0",
       "config": {
+        "placeholder": "<p><strong style=\"font-size: 20px; color: var(--light);\">Double click to edit text</strong></p>",
         "text": "<p><strong style=\"color: var(--light); font-size: 20px;\">﻿Property and Land Records</strong></p>",
         "style": {
           "color": "var(--light)",
@@ -2914,6 +2910,7 @@
       "version": "1.21.0",
       "config": {
         "text": "<p><strong style=\"color: var(--dark-800); font-size: 14px;\">﻿Town of Avon – Public Land Records Data Use Agreement</strong></p>",
+        "placeholder": "<p><strong style=\"font-size: 14px; color: var(--dark-800);\">Title</strong></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2927,6 +2924,7 @@
       "version": "1.21.0",
       "config": {
         "text": "<p><span style=\"color: var(--dark-800);\">The Town of Avon provides public access to GIS data for viewing, printing, and limited sharing. While efforts are made to ensure accuracy, data may contain errors or change over time. Users must not alter, misuse, or misrepresent the data. All data remains the property of the Town and may not be redistributed without proper attribution.</span></p><p><br></p><p><span style=\"color: var(--dark-800);\">The Town is not liable for any loss or damage resulting from use of this data. Continued use implies acceptance of these terms. For questions, contact the GIS Department at GIS@avon.org</span></p>",
+        "placeholder": "<p><span style=\"color: var(--dark-800);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -5408,6 +5406,7 @@
       "label": "Text 5",
       "config": {
         "text": "<p>﻿Property and Land Records</p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
         }
@@ -6275,34 +6274,13 @@
         }
       ]
     },
-    "widget_65": {
-      "uri": "widgets/avon-address-search/",
-      "version": "1.0.0",
-      "label": "Avon Address Search 4",
-      "config": {},
-      "id": "widget_65",
-      "useMapWidgetIds": [
-        "widget_7"
-      ],
-      "useDataSources": [
-        {
-          "dataSourceId": "d30b52a48553489fa7fdb6dd15bbe9da-1a039dafca9-layer-24",
-          "mainDataSourceId": "d30b52a48553489fa7fdb6dd15bbe9da-1a039dafca9-layer-24",
-          "rootDataSourceId": "d30b52a48553489fa7fdb6dd15bbe9da"
-        },
-        {
-          "dataSourceId": "d30b52a48553489fa7fdb6dd15bbe9da-1949577979d-layer-52",
-          "mainDataSourceId": "d30b52a48553489fa7fdb6dd15bbe9da-1949577979d-layer-52",
-          "rootDataSourceId": "d30b52a48553489fa7fdb6dd15bbe9da"
-        }
-      ]
-    },
     "widget_69": {
       "uri": "widgets/common/text/",
       "version": "1.21.0",
       "label": "Address Search Help",
       "config": {
         "text": "<p>Search for a property by entering an <strong>address</strong> or<strong> parcel number,</strong> or by clicking a point on the map, to learn more about the location and its surrounding area. The search will suggest results as you type.</p><p><br></p><p><br></p><p>Results will include information about features of interest.</p><p><br></p><p><em style=\"color: var(--dark-500);\">Information is provided as a public service for your convenience. Every effort has been made to achieve accuracy, but the Planning Division should be contacted at 970-748-4023 to verify General Plan and Zoning information. The Town of Avon shall not incur any liability for errors or omissions with respect to the information provided in this service. Note that these maps are not the basis of developing municipal code, managing parcel ownership nor code compliance administration. They simply provide an indication of the location of boundaries and assets, and any misalignment of boundaries with actual landmarks does not impact ownership nor code applicable.</em></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
         }
@@ -6757,8 +6735,8 @@
       ],
       "useDataSources": [
         {
-          "dataSourceId": "d30b52a48553489fa7fdb6dd15bbe9da-1a039dafca9-layer-24",
-          "mainDataSourceId": "d30b52a48553489fa7fdb6dd15bbe9da-1a039dafca9-layer-24",
+          "dataSourceId": "d30b52a48553489fa7fdb6dd15bbe9da-1a0e997c912-layer-24-1a039dafca9-layer-24",
+          "mainDataSourceId": "d30b52a48553489fa7fdb6dd15bbe9da-1a0e997c912-layer-24-1a039dafca9-layer-24",
           "rootDataSourceId": "d30b52a48553489fa7fdb6dd15bbe9da"
         }
       ]
@@ -6801,6 +6779,28 @@
         {
           "dataSourceId": "d30b52a48553489fa7fdb6dd15bbe9da-1a039dafca9-layer-24",
           "mainDataSourceId": "d30b52a48553489fa7fdb6dd15bbe9da-1a039dafca9-layer-24",
+          "rootDataSourceId": "d30b52a48553489fa7fdb6dd15bbe9da"
+        }
+      ]
+    },
+    "widget_105": {
+      "uri": "widgets/avon-address-search/",
+      "version": "1.0.0",
+      "label": "Avon Address Search 4",
+      "config": {},
+      "id": "widget_105",
+      "useMapWidgetIds": [
+        "widget_7"
+      ],
+      "useDataSources": [
+        {
+          "dataSourceId": "d30b52a48553489fa7fdb6dd15bbe9da-1a0e997c912-layer-24-1a039dafca9-layer-24",
+          "mainDataSourceId": "d30b52a48553489fa7fdb6dd15bbe9da-1a0e997c912-layer-24-1a039dafca9-layer-24",
+          "rootDataSourceId": "d30b52a48553489fa7fdb6dd15bbe9da"
+        },
+        {
+          "dataSourceId": "d30b52a48553489fa7fdb6dd15bbe9da-1949577979d-layer-52",
+          "mainDataSourceId": "d30b52a48553489fa7fdb6dd15bbe9da-1949577979d-layer-52",
           "rootDataSourceId": "d30b52a48553489fa7fdb6dd15bbe9da"
         }
       ]
@@ -7431,16 +7431,9 @@
     }
   },
   "useAutoSortInFixedLayout": true,
-  "publishTimestamp": 1789157538805,
+  "publishTimestamp": 1731483829185,
   "attributes": {
-    "portalUrl": "https://AVON-COLORADO.maps.arcgis.com",
-    "isWebTier": false,
-    "clientId": "",
-    "express": false,
-    "title": "Property and Land Records",
-    "description": "",
-    "type": "Web Experience",
-    "thumbnail": null
+    "portalUrl": "https://AVON-COLORADO.maps.arcgis.com"
   },
   "sharedThemeVariables": {
     "header": {
@@ -7496,6 +7489,6 @@
       "orgSetting": {}
     }
   },
-  "timestamp": 1789157537700,
+  "timestamp": 1790626389531,
   "mainLocale": "en-us"
 }

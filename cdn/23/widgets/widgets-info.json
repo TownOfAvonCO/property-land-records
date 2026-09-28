@@ -12810,6 +12810,42 @@
     "group": 2
   },
   {
+    "name": "ae-bulk-asset-select",
+    "manifest": {
+      "name": "ae-bulk-asset-select",
+      "label": "AE Bulk Asset Select",
+      "type": "widget",
+      "version": "1.0.0",
+      "exbVersion": "1.21.0",
+      "dependency": [
+        "jimu-arcgis"
+      ],
+      "author": "Town of Avon",
+      "description": "Paste a list or table of Asset IDs to select and zoom to matching assets on the map.",
+      "copyright": "",
+      "license": "http://www.apache.org/licenses/LICENSE-2.0",
+      "properties": {
+        "hasSettingPage": true
+      },
+      "publishMessages": [
+        "DATA_RECORDS_SELECTION_CHANGE"
+      ],
+      "translatedLocales": [
+        "en"
+      ],
+      "defaultSize": {
+        "width": 400,
+        "height": 430
+      }
+    },
+    "i18nLabel": {},
+    "i18nDescription": {},
+    "uri": "widgets/ae-bulk-asset-select/",
+    "icon": "widgets/ae-bulk-asset-select/icon.svg",
+    "order": 700,
+    "group": 7
+  },
+  {
     "name": "ae-map-labels-search",
     "manifest": {
       "name": "ae-map-labels-search",
@@ -12905,6 +12941,77 @@
     "i18nDescription": {},
     "uri": "widgets/avon-address-search/",
     "icon": "widgets/avon-address-search/icon.svg",
+    "order": 700,
+    "group": 7
+  },
+  {
+    "name": "camera-change-request",
+    "manifest": {
+      "name": "camera-change-request",
+      "label": "Camera Change Request",
+      "type": "widget",
+      "version": "1.0.0",
+      "exbVersion": "1.21.0",
+      "dependency": [
+        "jimu-arcgis"
+      ],
+      "author": "Town of Avon",
+      "description": "Collect map-based camera change requests with notes and attachments.",
+      "copyright": "",
+      "license": "http://www.apache.org/licenses/LICENSE-2.0",
+      "properties": {
+        "hasSettingPage": true
+      },
+      "translatedLocales": [
+        "en"
+      ],
+      "defaultSize": {
+        "width": 420,
+        "height": 640
+      }
+    },
+    "i18nLabel": {
+      "en": "Camera Change Request"
+    },
+    "i18nDescription": {
+      "en": null
+    },
+    "uri": "widgets/camera-change-request/",
+    "icon": "widgets/camera-change-request/icon.svg",
+    "order": 700,
+    "group": 7
+  },
+  {
+    "name": "gis-resource-finder",
+    "manifest": {
+      "name": "gis-resource-finder",
+      "label": "GIS Resource Finder",
+      "type": "widget",
+      "version": "1.0.0",
+      "exbVersion": "1.21.0",
+      "author": "Town of Avon",
+      "description": "Searchable catalog of Town of Avon GIS data, maps, applications, dashboards, and forms.",
+      "copyright": "Town of Avon",
+      "license": "Apache-2.0",
+      "properties": {
+        "hasSettingPage": true
+      },
+      "translatedLocales": [
+        "en"
+      ],
+      "defaultSize": {
+        "width": 460,
+        "height": 650
+      }
+    },
+    "i18nLabel": {
+      "en": "GIS Resource Finder"
+    },
+    "i18nDescription": {
+      "en": null
+    },
+    "uri": "widgets/gis-resource-finder/",
+    "icon": "widgets/gis-resource-finder/icon.svg",
     "order": 700,
     "group": 7
   },
