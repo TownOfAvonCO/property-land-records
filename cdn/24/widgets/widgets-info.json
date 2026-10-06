@@ -12810,6 +12810,37 @@
     "group": 2
   },
   {
+    "name": "ae-asset-lasso",
+    "manifest": {
+      "name": "ae-asset-lasso",
+      "label": "Asset Lasso",
+      "type": "widget",
+      "version": "1.0.0",
+      "exbVersion": "1.21.0",
+      "author": "Town of Avon",
+      "description": "Lasso assets and copy their IDs.",
+      "copyright": "",
+      "license": "",
+      "properties": {},
+      "dependency": [
+        "jimu-arcgis"
+      ],
+      "translatedLocales": [
+        "en"
+      ],
+      "defaultSize": {
+        "width": 360,
+        "height": 520
+      }
+    },
+    "i18nLabel": {},
+    "i18nDescription": {},
+    "uri": "widgets/ae-asset-lasso/",
+    "icon": "widgets/ae-asset-lasso/icon.svg",
+    "order": 700,
+    "group": 7
+  },
+  {
     "name": "ae-bulk-asset-select",
     "manifest": {
       "name": "ae-bulk-asset-select",
