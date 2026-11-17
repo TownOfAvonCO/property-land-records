@@ -2840,6 +2840,7 @@
       "version": "1.21.0",
       "config": {
         "text": "<p style=\"text-align: center;\"><span style=\"color: var(--light);\">﻿Open Table</span></p>",
+        "placeholder": "<p style=\"text-align: center;\"><span style=\"color: var(--light);\">Double click to edit text</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": false
@@ -2852,6 +2853,7 @@
       "uri": "widgets/common/text/",
       "version": "1.21.0",
       "config": {
+        "placeholder": "<p><strong style=\"font-size: 20px; color: var(--light);\">Double click to edit text</strong></p>",
         "text": "<p><strong style=\"color: var(--light); font-size: 20px;\">﻿Property and Land Records</strong></p>",
         "style": {
           "color": "var(--light)",
@@ -2908,6 +2910,7 @@
       "version": "1.21.0",
       "config": {
         "text": "<p><strong style=\"color: var(--dark-800); font-size: 14px;\">﻿Town of Avon – Public Land Records Data Use Agreement</strong></p>",
+        "placeholder": "<p><strong style=\"font-size: 14px; color: var(--dark-800);\">Title</strong></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2921,6 +2924,7 @@
       "version": "1.21.0",
       "config": {
         "text": "<p><span style=\"color: var(--dark-800);\">The Town of Avon provides public access to GIS data for viewing, printing, and limited sharing. While efforts are made to ensure accuracy, data may contain errors or change over time. Users must not alter, misuse, or misrepresent the data. All data remains the property of the Town and may not be redistributed without proper attribution.</span></p><p><br></p><p><span style=\"color: var(--dark-800);\">The Town is not liable for any loss or damage resulting from use of this data. Continued use implies acceptance of these terms. For questions, contact the GIS Department at GIS@avon.org</span></p>",
+        "placeholder": "<p><span style=\"color: var(--dark-800);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -5105,7 +5109,7 @@
         "filterItems": [
           {
             "type": "SINGLE",
-            "name": "Zoning",
+            "name": "ZONING *turn on zoning layer first",
             "useDataSources": [
               {
                 "dataSourceId": "d30b52a48553489fa7fdb6dd15bbe9da-19494f53397-layer-4",
@@ -5179,14 +5183,14 @@
           },
           {
             "type": "SINGLE",
-            "name": "Condominiums",
+            "name": "SUBDIVISIONS *turn on subdivision layer first",
             "useDataSources": [
               {
-                "dataSourceId": "d30b52a48553489fa7fdb6dd15bbe9da-194b2bfed63-layer-13-194b2a5b3ad-layer-12",
-                "mainDataSourceId": "d30b52a48553489fa7fdb6dd15bbe9da-194b2bfed63-layer-13-194b2a5b3ad-layer-12",
+                "dataSourceId": "d30b52a48553489fa7fdb6dd15bbe9da-1a1c6bb29e5-layer-25",
+                "mainDataSourceId": "d30b52a48553489fa7fdb6dd15bbe9da-1a1c6bb29e5-layer-25",
                 "rootDataSourceId": "d30b52a48553489fa7fdb6dd15bbe9da",
                 "fields": [
-                  "Condo_Name"
+                  "SubName"
                 ]
               }
             ],
@@ -5205,60 +5209,7 @@
               "parts": [
                 {
                   "type": "SINGLE",
-                  "jimuFieldName": "Condo_Name",
-                  "operator": "STRING_OPERATOR_IS",
-                  "valueOptions": {
-                    "isValid": true,
-                    "sourceType": "UNIQUE",
-                    "inputEditor": "SIMPLE_SELECT",
-                    "value": null
-                  },
-                  "displayType": "USE_ASK_FOR_VALUE",
-                  "askForValueOptions": {
-                    "label": "Condo Name is",
-                    "display": "BLOCK",
-                    "hint": "",
-                    "cascade": "ALL"
-                  },
-                  "displayLabel": null,
-                  "caseSensitive": false
-                }
-              ],
-              "sql": "",
-              "displaySQL": "(Condo_Name = ?)"
-            },
-            "autoApplyWhenWidgetOpen": true,
-            "collapseFilterExprs": false
-          },
-          {
-            "type": "SINGLE",
-            "name": "Subdivisions",
-            "useDataSources": [
-              {
-                "dataSourceId": "d30b52a48553489fa7fdb6dd15bbe9da-194b2bfed63-layer-13-194b2a59a98-layer-11",
-                "mainDataSourceId": "d30b52a48553489fa7fdb6dd15bbe9da-194b2bfed63-layer-13-194b2a59a98-layer-11",
-                "rootDataSourceId": "d30b52a48553489fa7fdb6dd15bbe9da",
-                "fields": [
-                  "SUBNAME"
-                ]
-              }
-            ],
-            "icon": {
-              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M15 1.53V0H1v1.53h.07l5.374 5.288v6.121l2.26 2.224a.5.5 0 0 0 .852-.356V6.825l5.382-5.295zM2 1h12v.049L8.556 6.406l-.001 7.207-1.111-1.093V6.399L2 1.042z\" clip-rule=\"evenodd\"></path></svg>",
-              "properties": {
-                "color": "",
-                "filename": "Filter",
-                "originalName": "filter.svg",
-                "inlineSvg": true,
-                "size": 14
-              }
-            },
-            "sqlExprObj": {
-              "logicalOperator": "AND",
-              "parts": [
-                {
-                  "type": "SINGLE",
-                  "jimuFieldName": "SUBNAME",
+                  "jimuFieldName": "SubName",
                   "operator": "STRING_OPERATOR_IS",
                   "valueOptions": {
                     "isValid": true,
@@ -5271,14 +5222,14 @@
                     "label": "Subdivision Name is",
                     "display": "BLOCK",
                     "hint": "",
-                    "cascade": "ALL"
+                    "cascade": "PREVIOUS"
                   },
                   "displayLabel": null,
                   "caseSensitive": false
                 }
               ],
               "sql": "",
-              "displaySQL": "(SUBNAME = ?)"
+              "displaySQL": "(SubName = ?)"
             },
             "autoApplyWhenWidgetOpen": true,
             "collapseFilterExprs": false
@@ -5333,15 +5284,15 @@
               "sql": "elev_mean_ft >= 8200",
               "displaySQL": "(Mean Elev Ft >= 8200)"
             },
-            "autoApplyWhenWidgetOpen": false,
+            "autoApplyWhenWidgetOpen": true,
             "collapseFilterExprs": false
           }
         ],
         "arrangeType": "BLOCK",
         "triggerType": "TOGGLE",
         "omitInternalStyle": false,
-        "resetAll": false,
-        "turnOffAll": false
+        "resetAll": true,
+        "turnOffAll": true
       },
       "id": "widget_44",
       "useDataSources": [
@@ -5355,27 +5306,19 @@
           ]
         },
         {
-          "dataSourceId": "d30b52a48553489fa7fdb6dd15bbe9da-194b2bfed63-layer-13-194b2a5b3ad-layer-12",
-          "mainDataSourceId": "d30b52a48553489fa7fdb6dd15bbe9da-194b2bfed63-layer-13-194b2a5b3ad-layer-12",
-          "rootDataSourceId": "d30b52a48553489fa7fdb6dd15bbe9da",
-          "fields": [
-            "Condo_Name"
-          ]
-        },
-        {
-          "dataSourceId": "d30b52a48553489fa7fdb6dd15bbe9da-194b2bfed63-layer-13-194b2a59a98-layer-11",
-          "mainDataSourceId": "d30b52a48553489fa7fdb6dd15bbe9da-194b2bfed63-layer-13-194b2a59a98-layer-11",
-          "rootDataSourceId": "d30b52a48553489fa7fdb6dd15bbe9da",
-          "fields": [
-            "SUBNAME"
-          ]
-        },
-        {
           "dataSourceId": "d30b52a48553489fa7fdb6dd15bbe9da-19c0bf4e001-layer-18-19c0bf4e119-layer-19",
           "mainDataSourceId": "d30b52a48553489fa7fdb6dd15bbe9da-19c0bf4e001-layer-18-19c0bf4e119-layer-19",
           "rootDataSourceId": "d30b52a48553489fa7fdb6dd15bbe9da",
           "fields": [
             "elev_mean_ft"
+          ]
+        },
+        {
+          "dataSourceId": "d30b52a48553489fa7fdb6dd15bbe9da-1a1c6bb29e5-layer-25",
+          "mainDataSourceId": "d30b52a48553489fa7fdb6dd15bbe9da-1a1c6bb29e5-layer-25",
+          "rootDataSourceId": "d30b52a48553489fa7fdb6dd15bbe9da",
+          "fields": [
+            "SubName"
           ]
         }
       ]
@@ -5402,6 +5345,7 @@
       "label": "Text 5",
       "config": {
         "text": "<p>﻿Property and Land Records</p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
         }
@@ -6275,6 +6219,7 @@
       "label": "Address Search Help",
       "config": {
         "text": "<p>Search for a property by entering an <strong>address</strong> or<strong> parcel number,</strong> or by clicking a point on the map, to learn more about the location and its surrounding area. The search will suggest results as you type.</p><p><br></p><p><br></p><p>Results will include information about features of interest.</p><p><br></p><p><em style=\"color: var(--dark-500);\">Information is provided as a public service for your convenience. Every effort has been made to achieve accuracy, but the Planning Division should be contacted at 970-748-4023 to verify General Plan and Zoning information. The Town of Avon shall not incur any liability for errors or omissions with respect to the information provided in this service. Note that these maps are not the basis of developing municipal code, managing parcel ownership nor code compliance administration. They simply provide an indication of the location of boundaries and assets, and any misalignment of boundaries with actual landmarks does not impact ownership nor code applicable.</em></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
         }
@@ -7425,16 +7370,9 @@
     }
   },
   "useAutoSortInFixedLayout": true,
-  "publishTimestamp": 1793750404965,
+  "publishTimestamp": 1731483829185,
   "attributes": {
-    "portalUrl": "https://AVON-COLORADO.maps.arcgis.com",
-    "isWebTier": false,
-    "clientId": "",
-    "express": false,
-    "title": "Property and Land Records",
-    "description": "",
-    "type": "Web Experience",
-    "thumbnail": null
+    "portalUrl": "https://AVON-COLORADO.maps.arcgis.com"
   },
   "sharedThemeVariables": {
     "header": {
@@ -7490,7 +7428,7 @@
       "orgSetting": {}
     }
   },
-  "timestamp": 1793750403201,
+  "timestamp": 1794928238770,
   "mainLocale": "en-us",
   "analytics": {
     "enable": true,
